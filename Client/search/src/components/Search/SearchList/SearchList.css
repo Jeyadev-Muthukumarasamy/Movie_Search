@@ -1,0 +1,33 @@
+.search-items {
+  border-bottom: 2px solid black;
+  line-height: 1;
+  position: static;
+  padding:10px
+}
+
+.search-list-container{
+  background-color: #EEEEEE;
+  border-radius: 14px;
+  
+
+}
+.search-list-container p{
+  position: relative;
+  margin-top: -15px;
+  margin-left: 57px;
+}
+
+.search-list-container .search-items{
+  
+  margin-bottom: 5px;
+
+  border-radius: 10px;
+  border-color: none;
+}
+
+@media(min-width:320px) {
+  .search-list-container{
+    width: 560px;
+  }
+  
+}
